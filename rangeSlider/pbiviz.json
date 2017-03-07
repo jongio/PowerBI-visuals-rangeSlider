@@ -1,0 +1,26 @@
+{
+  "visual": {
+    "name": "rangeSlider",
+    "displayName": "Range Slider",
+    "guid": "PBI_CV_E9728E78_E20D_42F5_B350_6B6F73F733CF",
+    "visualClassName": "Visual",
+    "version": "0.0.1",
+    "description": "The Range Slider custom visual allows you to filter a report based on a slider's selected value.",
+    "supportUrl": "http://bit.ly/emailjon",
+    "gitHubUrl": "https://github.com/jonbgallant/PowerBI-visuals-rangeSlider"
+  },
+  "apiVersion": "1.5.0",
+  "author": {
+    "name": "Jon Gallant",
+    "email": "http://bit.ly/emailjon"
+  },
+  "licenseTerms": "https://github.com/jonbgallant/PowerBI-visuals-rangeSlider/blob/master/LICENSE.md",
+  "privacyTerms": "https://go.microsoft.com/fwlink/?LinkID=627542",
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "externalJS": ["node_modules/nouislider/distribute/nouislider.js"],
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": "dependencies.json"
+}

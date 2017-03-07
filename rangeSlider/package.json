@@ -1,0 +1,8 @@
+{
+  "name": "visual",
+  "dependencies": {
+    "nouislider": "^9.2.0"
+  },
+  "licenseTerms": "https://github.com/jonbgallant/PowerBI-visuals-rangeSlider/blob/master/LICENSE.md",
+  "privacyTerms": "https://go.microsoft.com/fwlink/?LinkID=627542"
+}

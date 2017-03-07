@@ -1,0 +1,58 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Values",
+            "name": "values",
+            "kind": "Grouping",
+            "description": "Databind a list of values that appear in the slider. Values must be numeric and will be automatically sorted in ascending order."
+        }
+    ],
+    "dataViewMappings": [
+        {
+            "conditions": [
+                {
+                    "values": {
+                        "max": 1
+                    }
+                }
+            ],
+            "categorical": {
+                "categories": {
+                    "for": {
+                        "in": "values"
+                    },
+                    "dataReductionAlgorithm": {
+                        "top": {
+                            "count": 100000
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "objects": {
+        "general": {
+            "displayName": "General",
+            "properties": {
+                "filter": {
+                    "displayName": "filter",
+                    "type": {
+                        "filter": true
+                    }
+                }
+            }
+        },
+        "data": {
+            "displayName": "Data",
+            "properties": {
+                "defaultSelectedValue": {
+                    "displayName": "Default Selected Value",
+                    "description": "The default selected value when the report is first loaded. Set to -12000 to default to no filter.",
+                    "type": {
+                        "numeric": true
+                    }
+                }
+            }
+        }
+    }
+}
