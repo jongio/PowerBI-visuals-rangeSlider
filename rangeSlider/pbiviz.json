@@ -19,7 +19,7 @@
   "assets": {
     "icon": "assets/icon.png"
   },
-  "externalJS": ["node_modules/nouislider/distribute/nouislider.js"],
+  "externalJS": ["src/nouislider.js"],
   "style": "style/visual.less",
   "capabilities": "capabilities.json",
   "dependencies": "dependencies.json"

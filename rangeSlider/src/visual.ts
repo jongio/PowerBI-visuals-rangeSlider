@@ -131,7 +131,7 @@ module powerbi.extensibility.visual {
 
         private filter(values) {
             //debugger;
-            console.log('filterReport');
+            //console.log('filterReport');
             this.isApplySelectionFilterUpdate = true;
 
             let value = values[0] || values;
